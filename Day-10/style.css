@@ -1,0 +1,108 @@
+/* div {
+    color: yellow;
+    background: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+    border: 2px solid rebeccapurple;
+    margin: 20px 50px 40px 60px;
+    padding: 20px 50px 40px 60px;
+    text-align: center;
+    font-size: 1.2rem;
+} */
+
+#red {
+    color: red;
+    font-weight: 800;
+}
+
+#skyblue {
+    font-weight: 800;
+    color: rgb(19, 5, 99);
+}
+
+#theme {
+    width: 200px;
+    height: 70px;
+    background-color: seagreen;
+    border: 2px solid red;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+.dark #divbox {
+    background-color: antiquewhite;
+    color: green;
+}
+
+.light {
+    background: white;
+}
+.light #divbox {
+    background-color: rgb(92, 92, 165);
+    color: rgb(9, 15, 9);
+}
+
+#clickme {
+    width: 200px;
+    height: 40px;
+    background: saddlebrown;
+    color: black;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 3px;
+    font-weight: 800;
+    border: 2px solid rgb(34, 32, 31);
+    /* margin: 30px 30px 30px 40%; */
+    padding: 30px 20px 45px 20px;
+    cursor: pointer;
+    /* margin-bottom: 20%; */
+    transition: 3s ease-in;
+}
+
+#hoverevent {
+    width: 400px;
+    height: 80px;
+    background: rgb(3, 223, 61);
+    color: black;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 3px;
+    font-weight: 800;
+    border: 2px solid rgb(34, 32, 31);
+    /* padding: 30px 20px 45px 20px; */
+    cursor: pointer;
+}
+
+#di {
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    border: 3px solid rgb(209, 30, 30);
+    margin-bottom: 10px;
+}
+
+.old {
+    width: 80%;
+    height: auto;
+    margin: 0 5% 5% 5%;
+    align-items: center;
+    visibility: hidden;
+    transition: 3s ease-in;
+
+}
+
+.newImg{
+    width: 200%;
+    height: auto;
+    /* margin: 0 5% 5% 5%; */
+    /* align-items: center; */
+    /* visibility: ; */
+}
+

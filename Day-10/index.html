@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 10 | Events</title>
+</head>
+
+<body>
+    <h1>EVENTS IN JAVASCRIPT</h1>
+    <p>Events are fired to notify code of "interesting changes" that may affect code execution.</p>
+    <ul>
+        <li>Mouse events (click, double click etc. )</li>
+        <li>Keybord events (keypress, keyup, keydown)</li>
+        <li>Form events (submit etc.)</li>
+        <li>Print event & many more</li>
+    </ul>
+    <hr>
+    <h2>EVENET Object</h2>
+    <p>It is a special object that has details about the event.</p>
+    <p>All event handlers have access to the Event Object's properties and methods.
+    <p>
+        node.event = (<span id="red">e</span>) =>
+        {
+        <br> //handle here <br>
+        } <br>
+    <p> e.terget, e.type, e.clientX, e.clientY</p>
+    </p>
+    </p>
+    <hr>
+    <h2>Event Listeners</h2>
+    <p>node.<span id="red">addEventListener</span>( event, callback )<br>
+        node.<span id="red">removeEventListener</span>( event, callback) </p>
+
+    <p id="skyblue">*Note : the callback reference should be same to remove</p>
+
+    <hr>
+    <button id="theme">Mode</button>
+    <hr>
+    <button id="btn1">
+        <!-- onclick="console.log(`Butoon was clicked`); alert(`Button are clicked`);"  -->
+        Click me</button>
+    <!-- <button ondblclick="console.log(`Click me two times`); alert(`Button are clicked two times`);"> Click me two times</button> -->
+    <!-- <button onclick="let inpt1 = prompt('enter first numbers'); console.log(`You are entered this number ${inpt1}`)">Click and get first number</button>
+    <button onclick="let inpt2 = prompt('enter second numbers'); console.log(`You are entered this number ${inpt2}`);">Click and get second number</button> -->
+    <hr>
+    <div id="divbox">This is a div !</div>
+    <!-- <div onmouseover="console.log('you are on the box');">This is a div !</div> -->
+    <p class="para">Hover me !</p>
+
+    <div id="di">
+        <img class="old" src="romantic.jpg" alt="Love Picture"><br>
+        <button id="clickme">Mouse Hover</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

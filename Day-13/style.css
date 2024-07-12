@@ -1,0 +1,42 @@
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1.2rem;
+}
+span {
+    color: rgb(18, 91, 91);
+}
+
+#red {
+    color: red;
+    font-weight: 600;
+}
+#green {
+    font-weight: 600;
+    margin-top: 5rem;
+    color: rgb(6, 142, 6);
+}
+
+.const {
+    font-size: 2rem;
+    margin: 8rem 0 0 0;
+    font-weight: 500;
+}
+
+#blue {
+    margin-top: 5rem;
+    color: rgb(10, 5, 178);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#skyblue {
+    color: rgb(10, 5, 178);
+    font-weight: 600;
+}
+
+#normal {
+    font-weight: 600;
+    color: black;
+}

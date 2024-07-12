@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 14 | Callback, Promises and Async Await</title>
+</head>
+
+<body>
+    <h1><u>What this chapter is about ?</u></h1>
+    <p>async await >> promise chains >> callback hell</p>
+    <h2>Sync in JavaScript</h2>
+    <p id="yello">Synchronous</p>
+    <p>Synchronous means the code runs in a particular sequence of instructions given in the program. Each instruction waits for the previous instruction to complete its execution.</p>
+    <p id="yello">Asynchronous</p>
+    <p>Due to synchronous programming, sometimes important instructions get blocked due to some previous instructions, which causes a delay in the UI. Asynchronous code excution allows to execute next instructions immediatelt and doesn't block the flow.</p>
+    <h2>Callbacks</h2>
+    <p>A callback is a function passed as an argument to another function.</p>
+    <h2>Callback Hell</h2>
+    <p>Callback Hell : Nested callbacks stacked below one another forming a pyramid structure.</p>
+    <p>(Pyramid of Doom)</p>
+    <p>This style of programming becomes difficult to understand and manage.</p>
+    <h2>Promises</h2>
+    <ul>
+        <li>Promises is for "eventual" completion of task.</li>
+        <li>It is an object in JavaScript</li>
+        <li>It is a solution of callback hell</li>
+    </ul>
+    <p>let promise = new <span id="red">Promise(</span><span id="black">(resolve, reject) =></span>{ ... }<span id="red">)</span></p>
+    <p id="green">Function with two handlers</p>
+    <p id="nrgreen">*resolve & reject are callbacks provided by JavaScript</p>
+    <ol>
+        Promise have three stages :-
+        <li id="crl">Pending</li>
+        <li id="crl">Fulfilled [resolved]</li>
+        <li id="crl">Rejected</li>
+    </ol>
+    <h2>*Promise</h2>
+    <ul>
+        A JavaScript Promise object can be :
+        <li><span id="red">Pending : </span>the result is undefined</li>
+        <li><span id="red">Resolved : </span>the result is a value (fulfilled)<span id="red">resolve (</span>result<span id="red">)</span></li>
+        <li><span id="red">Reject : </span>the result is an error object<span id="red">reject (</span>error<span id="red">)</span> </li>
+    </ul>
+    <p id="greenn">*Promise has state (pending, fulfilled) & some result ( result for resolve & error for reject )</p>
+    <h2>*Promises</h2>
+    <p>.then() & .catch()</p>
+    <p><span id="blue">promise.then</span>((res) => { ... })</p>
+    <p><span id="blue">promise.catch</span>((err) => { ... })</p>
+    <h2>ASYNC - Await</h2>
+    <p>async function myfunction alwa return a promise.</p>
+    <p id="greenn">async function myfunction() { ... }</p>
+    <p id="grn">await pauses the execution of its sorrounding. async function until the promise is selected.</p>
+    <p>async await &gt;&gt; Promise Chain &gt;&gt; Callback hell</p>
+    <h2><span id="blue">IIFE</span> : Immediately Invoked Function Expression</h2>
+    <p>IIFE is a function that is called immediately as soon as it is defined.</p>
+    <div class="container">
+        <p>
+            (function() { <br>
+            //- <br>
+            })(); <br>
+            <br> <br>
+            (() => { <br>
+            //- <br>
+            })(); <br>
+            <br> <br>
+            (async () => { <br>
+            //- <br>
+            })(); <br>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+*{
+    font-size: 1rem;
+}
+
+h1 {
+    color: blue;
+    font-size: 2rem;
+}
+
+#blue {
+    color: blue;
+    font-weight: 600;
+}
+
+#red {
+    color: red;
+    font-weight: 600;
+}
+
+.facts {
+    color: blueviolet;
+}
+
+h2 {
+    color: rgb(29, 3, 3);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+#ajax {
+    color: red;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+ul li {
+    color: rgb(6, 109, 138);
+    font-weight: 600;
+}
+
+#method {
+    font-weight: 600;
+} 
+#ax {
+    font-weight: 600;
+    color: seagreen;
+}
+div {
+    width: auto;
+    height: auto;
+    color: rgb(87, 3, 44);
+    background-color: yellow;
+    font-weight: 500;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    font-size: 1.6rem;
+    display: inline-block
+}

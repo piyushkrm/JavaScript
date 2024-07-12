@@ -1,0 +1,90 @@
+h1{
+    color: blueviolet;
+    font-weight: 300;
+}
+
+h1 {
+    color: rgb(5, 151, 76);
+    font-weight: 300;
+}
+
+#yello {
+    background-color: rgb(196, 156, 9);
+    display: inline;
+    border-radius: 10%;
+    padding: 10px 10px 10px 10px;
+}
+
+#red {
+    color: red;
+    font-weight: 700;
+}
+
+#black {
+    color: rgb(4, 135, 187);
+    font-weight: 700;
+}
+
+#green {
+    color: green;
+    font-weight: 700;
+    margin-left: 150px;
+    display: inline;
+    margin-top: -15px;    
+    background-color: rgb(196, 156, 9);
+    border-radius: 10%;
+    padding: 10px 10px 10px 10px;
+}
+
+#grn {
+    color: green;
+    font-weight: 700;
+    background-color: rgb(196, 156, 9);
+    display: inline;
+    border-radius: 10%;
+    padding: 10px 10px 10px 10px;
+}
+
+#greenn {
+    color: green;
+    font-weight: 700;
+    background-color: rgb(196, 156, 9);
+    display: inline;
+    border-radius: 10%;
+    padding: 10px 10px 10px 10px;
+}
+
+#nrgreen {
+    color: rgb(2, 115, 42);
+    font-weight: 700;
+}
+
+ol {
+    color: blueviolet;
+    margin-left: -15px;
+    font-weight: 500;
+}
+
+li {
+    color: rgb(248, 1, 170);
+    font-weight: 500;
+}
+
+#blue {
+    color: brown;
+    font-weight: 700;
+}
+
+h2 {
+    text-decoration: underline;
+    color: rgb(48, 8, 8);
+}
+
+.container {
+    height: auto;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rebeccapurple;
+    color: azure;
+    background-color: black;
+}

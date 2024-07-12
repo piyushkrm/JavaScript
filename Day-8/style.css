@@ -1,0 +1,36 @@
+* {
+    background:rgb(239, 96, 96);
+    color: rgb(212, 241, 23);
+    /* text-decoration: line-through; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* text-align: justify; */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* #heading1 {
+    color:antiquewhite
+}
+.heading2 {
+    color: blueviolet;
+}
+
+p{
+    color: green;
+}
+
+button {
+    color: blueviolet;
+}
+
+img {
+    width: 80%;
+    margin: 43px 58px 5px 96px;
+} */

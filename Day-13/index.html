@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 13 | Class & Object</title>
+</head>
+
+<body>
+    <h1><span>Prototypes</span> in JavaScript</h1>
+    <p>A JavaScriptobject is an entity having state and behaviour (propertoes and method). </p>
+    <p>JavaScript objects have a special property called prototype.</p>
+    <p>We ca set prototype using <b>__proto__</b></p>
+    <p id="green">*If object and prototype have same method, <span id="red"> object's method will be used.</span></p>
+    <h1><span>Classes</span> in JavaScript</h1>
+    <p>Class is a program-code template for creating objects.</p>
+    <p>Those objects will have some state (variales) & some behaviour (function) inside it.</p>
+    <p><span id="red">class</span> MyClass {<br>
+        <span id="green">constructor</span>() { ... } <br>
+        myMethod() { ... } <br>
+        }
+    </p>
+    <p>let myObj = <span id="red">new</span> MyClass();</p>
+    <p class="const"><span id="green">Constructor() </span>is a special type of method :
+    <ul>
+        <li>automatically invoked by name</li>
+        <li>initializes object</li>
+    </ul>
+    </p>
+    <p><span id="red">class</span> MyClass { <br>
+        <span id="green">constructor</span>() { ... } <br>
+        myMethod() { ... } <br>
+        }
+    </p>
+    <p><span id="blue">Inheritance </span>in JavaScript</p>
+    <p>Inheritance is passing down properties and methods from parent class to child class.</p>
+    <p><span id="red">class</span> Parent { <br>
+        } <br>
+        <span id="red">class</span> Child <span id="skyblue">extends</span> Parent { <br>
+        }
+    </p>
+    <p id="green">*If Child and Parent have same method, child's method will be used. <span id="normal">[Method
+            Overriding]</span></p>
+
+    <p id="blue">super <span id="normal"> Keyword</span></p>
+    <p>The super keybord is used to call the constructor of its parent class to access the parent's proprties and
+        methods.</p>
+    <p><span id="red">super(</span>args <span id="red">)</span> <span id="green">//calls Parent's constructor</span>
+    </p>
+    <p><span id="red">super</span>.parentMethod(args)</p>
+    <h1><span id="skyblue">Error</span> Handling</h1>
+    <p>try-catch</p>
+    <p><span id="red">try { </span><br>
+        ....normal code <br>
+        <span id="red">} catch (err) { </span><span id="green">// err is eror object</span><br>
+        ....handling error <br>
+        <span id="red">}</span></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 15 | APIs</title>
+</head>
+<body>
+    <h1>fetch API</h1>
+    <p>The Fetch API provides an interface for fetching (sending <b>|</b> receving).</p>
+    <p>It uses <span id="blue">Request</span> and <span id="blue">Response</span> Objects.</p>
+    <p>The <span id="blue">fetch()</span> method is used to fetch a resources (data).</p>
+    <p>let promise = <span id="red">fetch(</span> <span id="green">url</span> ,[options]<span id="red"> )</span></p>
+    <p class="facts"></p>
+    <button class="btn">Gets Facts</button>
+    <h2>*Understanding Terms</h2>
+    <p><span id="ajax">AJAX </span><span id="ax">(Asynchoronous JavaScript and JSON) : </span>is Asynchoronous JavaScript & XML</p>
+    <p><span id="ajax">json : </span>is JavaScript Object Nation</p>
+    <p><span id="ajax">json() </span><span id="method">method :</span> returns a second promise tht resollves with the result of parsing the response body text as JSON. (Input is JSON, output is JS object)</p>
+    <h2>API Call process</h2>
+    <ol>
+        <li><span id="Response">Response</span>in JSON format</li>
+        <li><span id="JS-object">JS object</span>Usable format</li>
+        <li>convert using <span id="method">json()</span> method</li>
+    </ol>
+
+    <h2>Request and Response</h2>
+    <p>HTTP <span id="ax">(Hyper Text Transfer Protocol) </span>Verbs</p>
+    <div class="div">
+        <p>*HTTP response headers also contain details about the responses, such as content type, HTTP status code etc</p>
+    </div>
+
+    <h2>*HTTP response status codes</h2>
+    <p>HTTP response status codes indicate whether a specific HTTP request has been successfully completed.</p>
+    <p>Response are grouped into five classes :-</p>
+    <div class="div">
+    <ol>
+        <li>Informational responses (100 - 199)</li>
+        <li>Successful response (200 - 299)</li>
+        <li>Redirection message (300 - 399)</li>
+        <li>Client error response (400 - 499)</li>
+        <li>Server error response (500 - 599)</li>
+    </ol>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
