@@ -103,7 +103,7 @@ console.log(x <= y);
 */
 
 // Logical Operator
-
+/*
 console.log("AND logical operator")
 console.log(true && true);
 console.log(true && false);
@@ -120,3 +120,5 @@ console.log(false || false);
 console.log("Logical Not operator");
 console.log(!true);
 console.log(!false);
+*/
+ 
