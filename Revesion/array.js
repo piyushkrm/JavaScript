@@ -14,3 +14,9 @@ console.log(array);
 // shift (Rmove 1st element from an array)
 console.log(array.shift());
 console.log(array)
+
+// unshift (add element in the array at 1st position)       also print length of an array
+console.log(array.unshift("Samsung"));
+const length = array.unshift("Samsung");
+console.log("length : "+length);
+console.log(array);
