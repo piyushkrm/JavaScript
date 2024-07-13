@@ -10,3 +10,7 @@ console.log(array);
 // add element at the end of an array
 console.log(array.push("Sona"));
 console.log(array);
+
+// shift (Rmove 1st element from an array)
+console.log(array.shift());
+console.log(array)
