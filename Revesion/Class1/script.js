@@ -43,3 +43,10 @@ var marks =  {
 }
 console.log(typeof(marks))
 console.log(marks)
+
+// booleans
+var a = true;
+var b = false;
+console.log(typeof(a));
+console.log(a)
+console.log(b)
