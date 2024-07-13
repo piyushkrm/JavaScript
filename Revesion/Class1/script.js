@@ -61,3 +61,7 @@ At a very high level, there are two types of data types in javaScript :-
 1.  Primitive data types :- Number, String, Undefined, Symbol, Null, Symbol
 2.  Reference data types :- Arrays and Objects
 */
+
+// Arrays
+var array = [1, 2, 5, 9, "Piyush", "Abhi", 'sona'];
+console.log(array);
