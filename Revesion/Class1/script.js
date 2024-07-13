@@ -79,6 +79,7 @@ console.log(array[3]); */
 
 
 // Operator in JavaScript
+/*
 console.log("Arithmetic Operator");
 var x = 54;
 var y = 36;
@@ -99,3 +100,23 @@ console.log(x < y);
 console.log(x == y);
 console.log(x >= y);
 console.log(x <= y);
+*/
+
+// Logical Operator
+
+console.log("AND logical operator")
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
+console.log("OR logical operator")
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+
+console.log("Logical Not operator");
+console.log(!true);
+console.log(!false);
