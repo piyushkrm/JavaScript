@@ -15,7 +15,10 @@ console.assert(4 != 4)
 
 
 // 3.   JavaScript Variable
+/*
 var num1 = 30;
 var num2 = 90;
-
 console.log(num1 + num2)
+*/
+
+// 4.   Data types in JavaScript
