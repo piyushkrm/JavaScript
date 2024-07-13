@@ -50,3 +50,14 @@ var b = false;
 console.log(typeof(a));
 console.log(a)
 console.log(b)
+
+
+// undefined
+ var p;console.log(p)
+
+
+/*
+At a very high level, there are two types of data types in javaScript :- 
+1.  Primitive data types :- Number, String, Undefined, Symbol, Null, Symbol
+2.  Reference data types :- Arrays and Objects
+*/
