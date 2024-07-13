@@ -4,4 +4,5 @@ console.log("Hello World")
 document.getElementsByTagName('h1')[0].style.color = "Green";
 document.write("This is document write");
 
-console.warn("This is warning")
+console.warn("This is warning");
+console.error("This is an error")
