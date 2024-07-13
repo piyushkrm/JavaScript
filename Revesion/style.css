@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 2px solid green;
+    margin: 5px 10px;
+    padding: 10px 10px;
+}
+
+button {
+    background-color: red;
+}
+
+.bg-primary {
+    background-color: aqua;
+}
+
+.text-success {
+    color: green;
+}
