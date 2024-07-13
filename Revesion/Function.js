@@ -34,3 +34,10 @@ while (j < arrau.length) {
     console.log(arrau[j]);
     j++;
 }
+
+// do-while loop
+let p = 0;
+do {
+    console.log(arrau[p]);
+    p++;
+} while (p < arrau.length);
