@@ -87,3 +87,7 @@ console.log("The value of a - b  is  : ", x - y);
 console.log("The value of a * b  is  : ", x * y);
 console.log("The value of a / b  is  : ", x / y);
 console.log("The value of a % b  is  : ", x % y);
+
+console.log("Assignment operator")
+var z = y;
+console.log(z)
