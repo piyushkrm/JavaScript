@@ -27,3 +27,10 @@ for(var i = 0; i < arrau.length; i++) {
 arrau.forEach(function(element) {
     console.log(element)
 })
+
+// while loop
+let j = 0;
+while (j < arrau.length) {
+    console.log(arrau[j]);
+    j++;
+}
