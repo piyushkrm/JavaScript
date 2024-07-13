@@ -22,3 +22,24 @@ console.log(num1 + num2)
 */
 
 // 4.   Data types in JavaScript
+// Number
+var num = 2406;
+var num3 = 24.06;
+console.log(typeof(num))
+console.log(typeof(num3))
+
+// String
+var str1 = "This is a string";
+var str2 = "This is also a string";
+console.log(typeof(str1))
+console.log(typeof(str2))
+
+// Objects
+var marks =  {
+    Piyush : 90,
+    aditys : 98,
+    Sona : 94,
+    Amar : 97
+}
+console.log(typeof(marks))
+console.log(marks)
