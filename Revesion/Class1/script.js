@@ -6,3 +6,4 @@ document.write("This is document write");
 
 console.warn("This is warning");
 console.error("This is an error")
+console.assert(4 != 4)
