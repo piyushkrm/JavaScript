@@ -18,6 +18,7 @@ if (age > 18) {
     */
 
 // loop
+/*
 var arrau = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 for(var i = 0; i < arrau.length; i++) {
     console.log(arrau[i]);
@@ -41,3 +42,4 @@ do {
     console.log(arrau[p]);
     p++;
 } while (p < arrau.length);
+ */
